@@ -34482,10 +34482,10 @@ PrefabInstance:
       addedObject: {fileID: 1240432649}
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 7ea14cd3a6c2d354da096498a447dc54, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1240432652}
+      addedObject: {fileID: 1240432651}
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 7ea14cd3a6c2d354da096498a447dc54, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1240432653}
+      addedObject: {fileID: 1240432650}
   m_SourcePrefab: {fileID: 100100000, guid: 7ea14cd3a6c2d354da096498a447dc54, type: 3}
 --- !u!4 &1240432641 stripped
 Transform:
@@ -34575,7 +34575,30 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b0b1b0d6b4bb6b4c9a44be7f47ea61c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::FrutaInteracao
---- !u!82 &1240432652
+--- !u!136 &1240432650
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 372899909}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.026707076
+  m_Height: 0.0120963715
+  m_Direction: 1
+  m_Center: {x: -0.020108176, y: 8.1786833e-10, z: -0.00039006842}
+--- !u!82 &1240432651
 AudioSource:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -34586,8 +34609,8 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
-  m_Resource: {fileID: 8300000, guid: 8d37053fba2dde84898f15f243c25536, type: 3}
-  m_PlayOnAwake: 0
+  m_Resource: {fileID: 0}
+  m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
@@ -34672,29 +34695,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &1240432653
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 372899909}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 43f86b14a27b52f4f9298c33015b5c26, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Oculus.Interaction::Oculus.Interaction.Grabbable
-  _transferOnSecondSelection: 0
-  _addNewPointsToFront: 0
-  _forwardElement: {fileID: 0}
-  _oneGrabTransformer: {fileID: 0}
-  _twoGrabTransformer: {fileID: 0}
-  _targetTransform: {fileID: 0}
-  _maxGrabPoints: -1
-  _rigidbody: {fileID: 1240432644}
-  _kinematicWhileSelected: 1
-  _throwWhenUnselected: 1
-  _forceKinematicDisabled: 0
 --- !u!1 &1242906928
 GameObject:
   m_ObjectHideFlags: 0
@@ -36464,10 +36464,10 @@ PrefabInstance:
       addedObject: {fileID: 1304759394}
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 7ea14cd3a6c2d354da096498a447dc54, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1304759398}
+      addedObject: {fileID: 1304759396}
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 7ea14cd3a6c2d354da096498a447dc54, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1304759397}
+      addedObject: {fileID: 1304759395}
   m_SourcePrefab: {fileID: 100100000, guid: 7ea14cd3a6c2d354da096498a447dc54, type: 3}
 --- !u!4 &1304759386 stripped
 Transform:
@@ -36557,30 +36557,30 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b0b1b0d6b4bb6b4c9a44be7f47ea61c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::FrutaInteracao
---- !u!114 &1304759397
-MonoBehaviour:
+--- !u!136 &1304759395
+CapsuleCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 854363031}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
   m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 43f86b14a27b52f4f9298c33015b5c26, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Oculus.Interaction::Oculus.Interaction.Grabbable
-  _transferOnSecondSelection: 0
-  _addNewPointsToFront: 0
-  _forwardElement: {fileID: 0}
-  _oneGrabTransformer: {fileID: 0}
-  _twoGrabTransformer: {fileID: 0}
-  _targetTransform: {fileID: 0}
-  _maxGrabPoints: -1
-  _rigidbody: {fileID: 1240432644}
-  _kinematicWhileSelected: 1
-  _throwWhenUnselected: 1
-  _forceKinematicDisabled: 0
---- !u!82 &1304759398
+  serializedVersion: 2
+  m_Radius: 0.026707076
+  m_Height: 0.0120963715
+  m_Direction: 1
+  m_Center: {x: -0.020108653, y: -0.000000014083293, z: -0.00039006842}
+--- !u!82 &1304759396
 AudioSource:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -36591,8 +36591,8 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
-  m_Resource: {fileID: 8300000, guid: 8d37053fba2dde84898f15f243c25536, type: 3}
-  m_PlayOnAwake: 0
+  m_Resource: {fileID: 0}
+  m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
@@ -39760,8 +39760,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _interactorFilters: []
-  _maxInteractors: 1
-  _maxSelectingInteractors: 1
+  _maxInteractors: -1
+  _maxSelectingInteractors: -1
   _data: {fileID: 0}
   _pointableElement: {fileID: 1240432645}
   _rigidbody: {fileID: 1240432644}
@@ -39783,8 +39783,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _interactorFilters: []
-  _maxInteractors: 1
-  _maxSelectingInteractors: 1
+  _maxInteractors: -1
+  _maxSelectingInteractors: -1
   _data: {fileID: 0}
   _pointableElement: {fileID: 1240432645}
   _rigidbody: {fileID: 1240432644}

@@ -24,6 +24,20 @@ Ao pegar as frutas, um som é reproduzido em tempo real utilizando
 scripts em C#, aumentando a sensação de imersão da experiência VR.
 
 ----------------------------------------------------------------
+CONTEXTO
+----------------------------------------------------------------
+
+Este ambiente representa uma experiência de entretenimento e
+imersão cultural no contexto do Metaverso. O objetivo é permitir
+que usuários explorem virtualmente um quintal rural inspirado no
+interior, proporcionando sensação de presença, interação e
+aproximação com ambientes naturais através da Realidade Virtual.
+
+Além do entretenimento, o projeto também demonstra como ambientes
+do cotidiano podem ser recriados digitalmente para experiências
+imersivas, educativas e culturais dentro do Metaverso.
+
+----------------------------------------------------------------
 ELEMENTOS DA CENA
 ----------------------------------------------------------------
 

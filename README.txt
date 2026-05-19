@@ -134,7 +134,7 @@ PROCESSO DE CRIAÇÃO E DIFICULDADES
 
 Durante o desenvolvimento do projeto, uma das principais
 dificuldades foi configurar corretamente o sistema de interação
-do Meta XR SDK para permitir que os objetos emitiseem som ao ser segurados.
+do Meta XR SDK para permitir que os objetos emitissem som ao ser segurados.
 
 Também foi necessário compreender:
 - reprodução de áudio em objetos 3D;
